@@ -1,4 +1,4 @@
-// ******* Dog Years Practices *******
+// ******* Dog Years Practices ******* ""
 
 // Creating a variable to set to my age as a reference
 
@@ -141,3 +141,27 @@ const calculateSleepDebt = () => {
 
 calculateSleepDebt();
 
+
+
+// Whale Talk
+
+const input = 'Hi I am a whale and I enjoy the wate. Hurray!';
+const vowels=['a','e','i','o','u'];
+let resultArray = [];
+
+for(let i = 0; i < input.length; i++){
+  
+  for(let j = 0; j < vowels.length; j++){  
+    if (input[i] === vowels[j]){
+      if(input[i] === 'e'){
+        resultArray.push('ee');
+        }
+        else if(input[i] === 'u'){
+          resultArray.push('uu');
+        }
+        else resultArray.push(input[i]);
+      }
+    }
+}
+
+console.log(resultArray.join('').toUpperCase());
