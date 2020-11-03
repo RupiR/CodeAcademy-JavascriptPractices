@@ -216,5 +216,5 @@ storyWords.forEach(word => {
 
 console.log("The counter is: " + counter);
 console.log("Count one equals: " + count + " Count two equals: " + countTwo + " Count three equals: " + countThree);
-console.log(betterWords;
+console.log(betterWords);
 console.log(overusedWords);
