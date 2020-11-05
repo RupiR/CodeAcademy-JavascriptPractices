@@ -354,3 +354,5 @@ songsAboutJane.addRating(4);
 console.log(songsAboutJane.getAverageRating());
 
 console.log(songsAboutJane.shuffle());
+
+// Next exercise 
