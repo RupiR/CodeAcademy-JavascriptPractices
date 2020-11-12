@@ -186,7 +186,7 @@ const betterWords = storyWords.filter(words => {
   !unnecessaryWords.includes(words); 
 })
 
-//count how many overused words are there 
+/// count how many overused words are there 
 
 let count = 0;
 let countTwo = 0;
