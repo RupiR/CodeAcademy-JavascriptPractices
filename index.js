@@ -360,7 +360,7 @@ console.log(songsAboutJane.shuffle());
 
 
 
-// ******* The Brown Bear - Elements *******
+// ******* The Brown Bear - Elements Exercise *******
 
 <body>
   <h1>The Brown Bear</h1>
